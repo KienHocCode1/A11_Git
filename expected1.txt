@@ -1,1 +1,1 @@
-some output from the program
+Some output from the program
