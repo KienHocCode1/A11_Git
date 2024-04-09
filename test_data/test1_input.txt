@@ -1,0 +1,2 @@
+A file with 10 numbers, one on each line.
+Verify that in this case the lowest number in the file is output to the output file.
