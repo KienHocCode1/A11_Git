@@ -1,2 +1,10 @@
-A file with 10 numbers, one on each line.
-Verify that in this case the lowest number in the file is output to the output file.
+50
+90.2
+30.4
+120
+42
+11
+35.9
+80.1
+49.56
+100
