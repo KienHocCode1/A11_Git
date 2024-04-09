@@ -11,10 +11,6 @@ jobs:
       with:
         python-version: "3.10"
     - name: Produce Test 1 Output
-      run: python main.py > actual1.txt
-    - name: Test 1
-      run: diff expected1.txt actual1.txt
-    - name: Produce Test 2 Output
-      run: python main.py > actual2.txt
-    - name: Test 2
-      run: diff expected2.txt actual1.txt
+      run: python find_lowest_number.py test_data/test1_input.txt > test_data/output1.txt
+    - name: Compare Test 1 Output
+      run: diff -q test_data/output1.txt test_data/test1_expected.txt
