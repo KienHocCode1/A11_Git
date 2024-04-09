@@ -1,0 +1,2 @@
+A blank file.
+Verify in this case that the "No numbers found in file" is output to the output file.
